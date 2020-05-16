@@ -107,6 +107,8 @@ box-shadow: 1em 1em 3em black;
     width: inherit;
     height: inherit;
 
+    animation: 1s ease sheenB forwards;;
+
 }
 
 .reflect > *{
@@ -125,6 +127,22 @@ box-shadow: 1em 1em 3em black;
 .reflect:hover{
 
 animation: 1s ease sheen forwards;;
+
+}
+
+@keyframes sheenB {
+
+0%{background: linear-gradient(33deg,grey 60%,white 70%);}
+10%{background: linear-gradient(35deg,grey 60%,white 70%);}
+20%{background: linear-gradient(37deg,grey 60%,white 70%);}
+30%{background: linear-gradient(39deg,grey 60%,white 70%);}
+40%{background: linear-gradient(41deg,grey 60%,white 70%);}
+50%{background: linear-gradient(43deg,grey 60%,white 70%);}
+60%{background: linear-gradient(45deg,grey 60%,white 70%);}
+70%{background: linear-gradient(47deg,grey 60%,white 70%);}
+80%{background: linear-gradient(49deg,grey 60%,white 70%);}
+90%{background: linear-gradient(51deg,grey 60%,white 70%);}
+100%{background: linear-gradient(53deg,grey 60%,white 70%);}
 
 }
 
