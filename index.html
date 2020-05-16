@@ -1,0 +1,252 @@
+<doctype !html>
+
+<head>
+
+
+</head>
+
+<style>
+
+.topPane{
+
+margin-top: 0px;
+width: auto%;
+text-align: center;
+
+}
+
+.title{
+
+    margin: auto;
+
+    font-family:fantasy;
+
+    border-radius: 5px;
+
+    width: auto;
+
+    color: rgb(104, 104, 104);
+
+    background: linear-gradient(180deg, lightgray 80%,grey);
+
+    font-size: 2rem;
+    padding-top: 0.2%;
+    padding-bottom: 0.2%;
+
+    box-shadow: 0.5em 0.5em 1em black;
+
+}
+
+.container{
+
+    width: auto;
+    height: auto;
+
+    display: flex;
+
+    margin: auto;
+
+    min-width: 800px;
+    max-width: 1000px;
+
+    padding: 2%;
+
+}
+
+
+.block{
+
+    background-color: rgb(0, 0, 0);
+
+    border-radius: 10px;
+
+    margin: auto;
+    margin-top: 10%;
+
+    height: 12rem;
+    width: 10rem;
+
+    box-shadow: 1em 1em 2em black;
+
+    transition: box-shadow 12;
+
+    animation: 1s ease tiltF forwards;
+
+}
+
+.block:hover{
+
+
+animation: 1s ease tiltB forwards;
+
+box-shadow: 1em 1em 3em black;
+
+}
+
+@keyframes tiltB {
+
+    0%{transform: rotateX(0deg);}
+    100%{transform: rotateX(25deg);}
+    
+}
+
+@keyframes tiltF {
+
+0%{transform: rotateX(25deg);}
+100%{transform: rotateX(0deg);}
+
+}
+
+.reflect{
+
+    opacity: 0.8;
+    background: linear-gradient(45deg,grey 60%,white 70%);
+
+    border-radius: inherit;
+
+    width: inherit;
+    height: inherit;
+
+}
+
+.reflect > *{
+
+    opacity:0.5;
+    margin: 0;
+
+    text-decoration-line: none;
+    text-decoration: none;
+
+    font-size: 7rem;
+
+}
+
+
+.reflect:hover{
+
+animation: 1s ease sheen forwards;;
+
+}
+
+
+@keyframes sheen {
+
+0%{background: linear-gradient(53deg,grey 60%,white 70%);}
+10%{background: linear-gradient(51deg,grey 60%,white 70%);}
+20%{background: linear-gradient(49deg,grey 60%,white 70%);}
+30%{background: linear-gradient(47deg,grey 60%,white 70%);}
+40%{background: linear-gradient(45deg,grey 60%,white 70%);}
+50%{background: linear-gradient(43deg,grey 60%,white 70%);}
+60%{background: linear-gradient(41deg,grey 60%,white 70%);}
+70%{background: linear-gradient(39deg,grey 60%,white 70%);}
+80%{background: linear-gradient(37deg,grey 60%,white 70%);}
+90%{background: linear-gradient(35deg,grey 60%,white 70%);}
+100%{background: linear-gradient(33deg,grey 60%,white 70%);}
+
+}
+
+body{
+
+    background-color: rgb(65, 64, 64);
+
+}
+
+
+</style>
+
+
+<body>
+
+<div class="topPane">
+
+    
+
+    <h1 class="Title">Cards an Emojis!</h1>
+
+</div>
+
+
+<div class="container">
+
+    <div class="block">
+
+        <div class="reflect">
+
+            <a href="https://www.youtube.com/watch?v=k238XpMMn38"  target="_blank">👨🏽‍💻</a>
+
+        </div>
+
+
+    </div>
+    
+    <div class="block">
+
+
+        <div class="reflect">
+        
+            <a href="https://www.youtube.com/watch?v=AbSXWsWDbm4" target="_blank">🛕</a>
+
+        </div>
+
+
+    </div>
+    
+    <div class="block">
+
+        <div class="reflect">
+            <a href="https://www.youtube.com/watch?v=KF32DRg9opA"  target="_blank">🌑</a>
+        </div>
+
+    </div>
+
+    <div class="block">
+
+
+        <div class="reflect">
+            <a href="https://www.youtube.com/watch?v=Sh2-P8hG5-E"  target="_blank">🪐</a>
+        </div>
+    
+
+
+    </div>
+
+</div>
+
+<div class="container">
+
+    <div class="block">
+
+        <div class="reflect">
+            <a href=""  target="_blank">🎮</a>
+        </div>
+
+    </div>
+    
+    <div class="block">
+
+        <div class="reflect">
+            <a href=""  target="_blank">🌌</a>
+        </div>
+
+    </div>
+    
+    <div class="block">
+
+        <div class="reflect">
+            <a href=""  target="_blank">☣️</a>
+        </div>
+
+    </div>
+
+    <div class="block">
+
+        <div class="reflect">
+            <a href=""  target="_blank">🏴‍☠️ <a1>
+        </div>
+
+
+    </div>
+
+</div>
+
+</body>
